@@ -1,12 +1,22 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+ text-align: center;
 }
 
+.header-top{
+  text-align: center;
+  color: #ce781c;
+}
+.gla{
+  background-color: #b6aa24;
+  color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +46,5 @@
     transform: rotate(360deg);
   }
 }
+
+
