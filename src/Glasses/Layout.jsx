@@ -13,7 +13,7 @@ export default class Layout extends Component {
     }
     renderlist = () => {
         return dataGlasses.map((Glasses, i) => {
-            return <img onClick={() => { this.changeGlasses(Glasses) }} src={Glasses.url} alt="" className="col-2" style={{ width: '110px', cursor: 'pointer', backgroundColor: 'white', width: '180px', padding: '18px' }} key={i} />
+            return <img onClick={() => { this.changeGlasses(Glasses) }} src={Glasses.url} alt="" className="col-2" style={{ width: '110px', cursor: 'pointer', backgroundColor: 'white', padding: '18px' }} key={i} />
         })
     }
     changeGlasses = (newGla) => {
