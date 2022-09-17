@@ -27,7 +27,7 @@ export default class Layout extends Component {
         return (
             <div style={{ backgroundImage: "url(./glassesImage/background.jpg)", backgroundSize: "cover", height: "100%" }}>
                 <div style={{ backgroundColor: "#00000033", height: "100vh" }}>
-                    <h3 style={{ color: "#f0f8ff" }} className="text-center text-light p-5">
+                    <h3 style={{ color: "#f0f8ff", backgroundColor: "#00000033", height:'5%', paddingTop:'15px' }} className="text-center text-light p-5">
                         TRY GLASSES APP ONLINE
                     </h3>
                     <div className='container-fluid'>
@@ -45,8 +45,8 @@ export default class Layout extends Component {
                                 <img className='glass'  src={this.state.glasses.url} alt="" />
                                 <div className="model-info">
                                     
-                                    <span className='model-name' style={{ background: '#ce781c' }}>{this.state.glasses.name}</span><br /> <span style={{ background: '#ce781c' }}>{this.state.glasses.price}</span><br />
-                                    <span className='modle-des' style={{ background: '#ce781c' }}>{this.state.glasses.desc}</span>
+                                    <span className='model-name' >{this.state.glasses.name}</span><br /> <span >{this.state.glasses.price}</span><br />
+                                    <span className='modle-des' >{this.state.glasses.desc}</span>
                                 </div>
                             </div>
 
